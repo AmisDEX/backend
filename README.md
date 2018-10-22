@@ -1,5 +1,16 @@
-# backend
+# API backend
 bitox.io site backend
+API Documentation
+API Endpoint
+You can connect to Bitox.io's API through this endpoint:
+https://backend.bitox.io/
+Public API Methods
+There is one public method, which take HTTP GET requests and return output in JSON format:
+  
+ <a href="https://backend.bitox.io/returnTicker">returnTicker</a>
+    <p>This is standard returnTicker information including volume and price data. Returns the ticker for all markets. Sample output:</p>
+    <p>{"ETH_0x8198e34": {"tokenAddr": "0x8198e349afd0a09efb06b460452ec1beab7a20aa", "quoteVolume": "500.0728741", "baseVolume": "0.2863036437", "last": "0.000050000000010000", "bid": "0.000050000", "ask": "0.0001", "updated": "2018-06-08T05:10:24.838277"}, [...]}</p>
+  </ul>
 
 ##
 # Web3
